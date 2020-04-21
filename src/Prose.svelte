@@ -1,6 +1,5 @@
 <script>
   export let hideToc = false;
-  export let toc = [];
 
   import { setContext } from "svelte";
 

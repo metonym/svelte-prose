@@ -70,10 +70,9 @@ Hide the default ToC to render your own:
 
 ### `Prose`
 
-| Property name | Value                                                                 |
-| :------------ | :-------------------------------------------------------------------- |
-| hideToc       | `boolean` (default: `false`)                                          |
-| toc           | `[]{ id: string; text: string; tag: 'h1' | string; }` (default: `[]`) |
+| Property name | Value                        |
+| :------------ | :--------------------------- |
+| hideToc       | `boolean` (default: `false`) |
 
 ### `T.H{1-6}`
 
