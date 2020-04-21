@@ -11,6 +11,7 @@ export default ["es", "umd"].map((format) => {
       format,
       file: UMD ? pkg.main : pkg.module,
       name: UMD ? pkg.name : undefined,
+      exports: "named",
     },
     plugins: [svelte(), resolve()],
   };
